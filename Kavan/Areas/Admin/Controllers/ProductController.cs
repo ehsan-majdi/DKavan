@@ -68,7 +68,6 @@ namespace Kavan.Areas.Admin.Controllers
             ViewBag.productGroup = kavanContext.ProductGroups.ToList();
             return View();
         }
-
         /// <summary>
         /// صفحه گالری
         /// </summary>

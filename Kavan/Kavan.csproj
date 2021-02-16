@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Kavan.Common\Kavan.Common.csproj" />
-    <ProjectReference Include="..\Kavan.Service\Kavan.Service.csproj" />
+    <ProjectReference Include="..\Kavan.Persistence\Kavan.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
