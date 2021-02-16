@@ -9,9 +9,21 @@ namespace Kavan.Persistence.Context
     public class KavanContext : DbContext
     {
         public KavanContext(DbContextOptions<KavanContext> options) : base(options) { }
+        /// <summary>
+        /// جدول محصول
+        /// </summary>
         public DbSet<Product> Products { get; set; }
+        /// <summary>
+        /// جدول ویژگی
+        /// </summary>
         public DbSet<ProductFeature> ProductFeatures { get; set; }
+        /// <summary>
+        /// جدول گروه محصول
+        /// </summary>
         public DbSet<ProductGroup> ProductGroups { get; set; }
+        /// <summary>
+        /// جدول تصاویز محصول
+        /// </summary>
         public DbSet<ProductImage> ProductImages { get; set; }
 
 
